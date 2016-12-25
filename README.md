@@ -6,16 +6,16 @@ Cordova plugin for Unionpay, supports **iOS** and **Android**.
 
 ```
 # Official environment, Cordova
-cordova plugin add https://github.com/Santino-Wu/cordova-plugin-unionpay.git --variable UNIONPAYMODE=00
+cordova plugin add https://github.com/gfel/cordova-plugin-unionpay.git --variable UNIONPAYMODE=00
 
 # Develop environment, Cordova
-cordova plugin add https://github.com/Santino-Wu/cordova-plugin-unionpay.git --variable UNIONPAYMODE=01
+cordova plugin add https://github.com/gfel/cordova-plugin-unionpay.git --variable UNIONPAYMODE=01
 
 # Official environment, Ionic
-ionic plugin add https://github.com/Santino-Wu/cordova-plugin-unionpay.git --variable UNIONPAYMODE=00
+ionic plugin add https://github.com/gfel/cordova-plugin-unionpay.git --variable UNIONPAYMODE=00
 
 # Develop environment, Ionic
-ionic plugin add https://github.com/Santino-Wu/cordova-plugin-unionpay.git --variable UNIONPAYMODE=01
+ionic plugin add https://github.com/gfel/cordova-plugin-unionpay.git --variable UNIONPAYMODE=01
 ```
 
 > The above parameter `--variable UNIONPAYMODE=00` means invoking payment in official environment.
